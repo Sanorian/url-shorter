@@ -1,0 +1,11 @@
+services:
+  backend:
+    build: backend
+    ports:
+      - ''
+  frontend:
+    build: frontend
+    ports:
+      - '80:80'
+  database:
+    image: mysql:latest
